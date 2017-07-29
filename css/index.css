@@ -1,0 +1,111 @@
+/*Selector universarl*/
+* {
+     font-family: 'Indie Flower', cursive;  
+}
+/*Selector universarl*/
+
+body{
+    background-image: url(../img/background.png);
+/* Nos aseguramos que la imagen de fondo este centrada vertical y horizontalmente en todo momento */
+  background-position: center center;
+
+  /* La imagen de fondo no se repite */
+  background-repeat: no-repeat;
+
+  /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
+     la altura del contenido supere la altura de la imagen. */
+  background-attachment: fixed;
+
+  /* La imagen de fondo se reescala cuando se cambia el ancho de ventana
+     del navegador */
+  background-size: cover;
+
+  /* Fijamos un color de fondo para que se muestre mientras se está
+    cargando la imagen de fondo o si hay problemas para cargarla  */
+  background-color: #464646;
+
+}
+.logo, .nav{
+    display: inline-flex;
+    align-content: center;
+    position: relative;
+    left: 20%;
+    margin: 0 0 100px 0px;
+        
+    }
+
+#menu li, a{ 
+     float: left;
+    list-style:none;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+#portada, label {
+    color: white;
+    text-align: center;
+    position: relative;
+    right: 15%;
+    height: 80%;
+}
+h1{
+    font-size: 80px;
+    margin:inherit;
+}
+
+.button{
+    background: linear-gradient(to left,coral,red);
+    border-radius: 5px;
+    border: none;
+    color: aliceblue;
+    padding: 7px;
+    font-size: 20px;
+
+    
+    
+}
+article h3 , h2{
+    margin: inherit;
+    text-align: center;
+    font-size: 50px;
+}
+{
+    text-align: center;
+    
+}
+
+#textoGuitarras{
+    display: inline-flex;
+    
+}
+article {
+    border-color: black;
+    border: dotted;
+    border-radius: 2pc;
+    width: 50%;
+    margin: 0 0 3% 20%;
+}
+
+#guitarras {
+    background: white;
+    position: relative;
+    
+}
+#Clasica {
+    
+    float: left;
+}
+
+#acustica {
+
+    float: right;
+}
+
+footer  {
+    display: inline-flex;
+    align-content: center;
+    position: relative;
+    left: 30%;
+    margin: 0 0 100px 0px;
+        
+    }
